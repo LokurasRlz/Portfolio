@@ -12,7 +12,7 @@ In this project, I set up a mobile version skeleton of my Portfolio. No complex 
 
 -Visual Code Studio
 
-- Figma Templates
+-Figma Templates
 
 
 
@@ -32,6 +32,15 @@ Build a personal portfolio site.
 Use images and backgrounds to enhance the look of the website.
 
 
+
+## Get Started
+
+
+Download the repository
+
+Open the index.htm file
+
+Enjoy!
 
 
 
