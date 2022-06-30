@@ -1,6 +1,6 @@
-# Hello Microverse
+# Portfolio: setup and mobile version skeleton
 
-In this project, I set up a "Hello world" repository. No complex coding was required for this exercise. Our goal here is to master all of the tools and best practices we learned about in previous steps..
+In this project, I set up a mobile version skeleton of my Portfolio. No complex coding was required for this exercise. Our goal here is to master all of the tools and best practices we learned about in previous steps..
 
 
 
@@ -12,34 +12,30 @@ In this project, I set up a "Hello world" repository. No complex coding was requ
 
 -Visual Code Studio
 
--Node.js
+- Figma Templates
+
 
 
 
 
 ## Learning Objectives
 
--Create branches with different base branches.
+Understand how to parse a Figma design to create a UI.
 
--Understand the concept of version control.
 
--Follow GitHub flow.
+Flexbox to place elements in the page.
 
--Open pull requests in GitHub.
 
--Write descriptive, easy to understand commit messages.
+Build a personal portfolio site.
 
--Write short, detailed, easy to understand descriptions of pull requests.
 
--Write a descriptive and easy to understand README in business English for every project submitted.
-
--Demonstrate an ability to submit a project for code review.
+Use images and backgrounds to enhance the look of the website.
 
 
 
 
 
-**For this project, we had to get familiar with Github Actions applying Linters to learn how to have cleaner and more profesional codes. Also we had to create a .gitignore file and practice adding new branches to the main repository.** 
+**For this project, we had to get familiar with FlexBox to make it. It was very challenging to me because I am a beginner but I am giving my best!** 
 
 
 
