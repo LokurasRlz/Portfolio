@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+</style>
 
 
 @media (min-width: 360px) {
@@ -31,7 +33,7 @@
 
 
   .name {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 56px;
@@ -45,7 +47,7 @@
 
   .description {
     color: #fff5e1;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -58,7 +60,7 @@
   }
 
   .introduction p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -74,7 +76,7 @@
   }
 
   .title {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
