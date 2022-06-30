@@ -1,90 +1,90 @@
 @media (min-width: 360px) {
-  body {
-    background-color: #1c1a19;
+    body {
+      background-color: #1c1a19;
+    }
+  
+    .nav-bar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 12px;
+      justify-content: space-between;
+      max-width: 350px;
+      background-color: #3c3a39;
+      flex-wrap: wrap;
+      flex-grow: 1;
+    }
+  
+    .headline {
+      background-image: url("./images/illustration-header-mobile.png");
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      background-position: bottom right;
+      width: 375px;
+      height: 590px;
+    }
+  
+  
+  
+    .name {
+      font-family: 'Crete Round', serif;
+      font-style: normal;
+      font-weight: 400px;
+      font-size: 56px;
+      line-height: 64px;
+      letter-spacing: 0.37px;
+      color: #ff6b00;
+      margin-top: 120px;
+      margin-left: 24px;
+      margin-bottom: 12px;
+    }
+  
+    .description {
+      color: #fff5e1;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+      margin-top: 0;
+      margin-left: 24px;
+      margin-bottom: 12px;
+    }
+  
+    .introduction p {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;
+      width: 327px;
+      height: 164px;
+      color: white;
+      justify-content: left;
+      margin-top: 0;
+      margin-left: 24px;
+      margin-bottom: 12px;
+    }
+  
+    .title {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: white;
+    }
+  
+    .images {
+      display: flex;
+      width: 200px;
+      height: 24px;
+      justify-content: space-between;
+      margin-left: 35px;
+      margin-top: 0;
+    }
   }
-
-  .nav-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
-    justify-content: space-between;
-    max-width: 350px;
-    background-color: #3c3a39;
-    flex-wrap: wrap;
-    flex-grow: 1;
-  }
-
-  .headline {
-    background-image: url("./images/illustration-header-mobile.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    background-position: bottom right;
-    width: 375px;
-    height: 590px;
-  }
-
-
-
-  .name {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-    margin-top: 120px;
-    margin-left: 24px;
-    margin-bottom: 12px;
-  }
-
-  .description {
-    color: #fff5e1;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    margin-top: 0;
-    margin-left: 24px;
-    margin-bottom: 12px;
-  }
-
-  .introduction p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-    width: 327px;
-    height: 164px;
-    color: white;
-    justify-content: left;
-    margin-top: 0;
-    margin-left: 24px;
-    margin-bottom: 12px;
-  }
-
-  .title {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    color: white;
-  }
-
-  .images {
-    display: flex;
-    width: 200px;
-    height: 24px;
-    justify-content: space-between;
-    margin-left: 35px;
-    margin-top: 0;
-  }
-}
