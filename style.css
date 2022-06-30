@@ -82,7 +82,10 @@
     width: 200px;
     height: 24px;
     justify-content: space-between;
-    margin-left: 35px;
-    margin-top: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    list-style: none;
+    align-items: center;
+    text-align: left;
   }
 }
