@@ -86,4 +86,343 @@
     align-items: center;
     text-align: left;
   }
+
+  .white {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .border {
+    width: 100%;
+    margin-top: 1px;
+  }
+
+  .workTitle {
+    font-family: Crete-Round, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+    margin-bottom: 1px;
+    text-align: left;
+    margin-left: 1px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: white;
+  }
+
+  .gymfit {
+    max-width: 684px;
+    margin-left: 24px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .up {
+    font-family: Crete-Round, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    vertical-align: middle;
+    color: #091e42;
+    margin-bottom: 1px;
+  }
+
+  .down {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    color: #091e42;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .mainText {
+    color: black;
+    padding-left: 10px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+  }
+
+  .buttons {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    position: static;
+    width: 124px;
+    height: 48px;
+    left: 0;
+    top: 259px;
+    background: #ff6b00;
+    color: white;
+    border: 0;
+    margin-left: 12px;
+  }
+
+  .buttons:hover {
+    color: #f55800;
+    background-color: #fff5e1;
+    border: #f55800 solid 1px;
+  }
+
+  .buttons:active {
+    background-color: #e05304;
+    color: white;
+  }
+
+  .secondPage {
+    background: #e5e5e5;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .over {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    background-color: white;
+  }
+
+  .socials {
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .boxes {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    margin-right: 12px;
+    list-style: none;
+    color: black;
+  }
+
+  .boxes2 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    margin-right: 12px;
+    list-style: none;
+    color: white;
+    fill: rgba(255, 255, 255, 0.24);
+  }
+
+  .works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: #f8f8f8;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(images/works.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 327px;
+    height: 386px;
+  }
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.work-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 16px;
+}
+
+.work-title {
+  font-family: Crete-Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0 16px;
+  margin-top: 84px;
+}
+
+.thirdpage {
+  background-image: url("./images/frame.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-position: bottom right;
+  width: 375px;
+  height: 590px;
+}
+
+.aboutMe {
+  display: flex;
+  background-image: url("./images/frame.png");
+  background-color: #1c1a19;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-position: bottom right;
+  width: 375px;
+  height: 590px;
+}
+
+.bioTitle {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.bio {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  width: 327px;
+  height: 164px;
+  color: white;
+  justify-content: left;
+  margin-top: 0;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.resume {
+  height: 48px;
+  left: 12px;
+  top: 12px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  border: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.resume:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: #f55800 solid 1px;
+}
+
+.resume:active {
+  background-color: #e05304;
+  color: white;
+}
+
+.whiteLine {
+  width: 50%;
+  padding-top: 0;
+  height: 1px;
+  margin: 20px auto;
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.itemsList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 42.67px;
+  vertical-align: middle;
+  color: white;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  grid-area: 2 /  1 / span 1 /span 2;
+}
+
+.titles {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.listTitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
 }
