@@ -245,8 +245,9 @@
 
   .works {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
   }
@@ -444,18 +445,15 @@
   padding: 24px;
   line-height: 44px;
   text-align: center;
-  width: 327px;
+  width: 320px;
   height: 216px;
 }
 
 .formSection {
-  height: 216px;
+  height: auto;
   width: 327px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  max-width: 900px;
-  align-content: stretch;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -464,7 +462,7 @@
   list-style: none;
 }
 
-.formInput {
+.inputform {
   padding: 10px 0 10px 0;
   border-bottom: 1px lightgray solid;
   font-family: Inter, sans-serif;
@@ -519,30 +517,8 @@ textarea {
 }
 
 .actualForm {
-  margin-top: 150px;
   align-items: stretch;
   width: 50vw;
-}
-
-.imputform {
-  border-bottom: 684px 1px solid lightgray;
-}
-
-.formButton {
-  padding: 12px;
-  width: 131px;
-  height: 48px;
-  left: 98px;
-  background: #ff6b00;
-  color: #fff;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  border: none;
-  margin-bottom: 120px;
-  background-color: #f55800;
 }
 
 .iconsBot {
