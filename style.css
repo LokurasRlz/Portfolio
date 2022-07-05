@@ -276,6 +276,7 @@
   justify-content: end;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 20px;
 }
 
 .work-description {
@@ -374,13 +375,6 @@
   color: white;
 }
 
-.whiteLine {
-  width: 50%;
-  padding-top: 0;
-  height: 1px;
-  margin: 20px auto;
-}
-
 .lists {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -398,6 +392,7 @@
   line-height: 42.67px;
   vertical-align: middle;
   color: white;
+  margin-bottom: 10px;
 }
 
 .skills {
@@ -413,6 +408,7 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+  margin-bottom: 10px;
 }
 
 .listTitle {
@@ -425,6 +421,7 @@
   align-items: center;
   flex-direction: column;
   color: white;
+  margin-bottom: 10px;
 }
 
 
@@ -453,7 +450,7 @@
 }
 
 .formSection {
-  border-bottom: 1px solid lightgray;
+
   height: 216px;
   width: 327px;
   display: flex;
@@ -523,7 +520,7 @@ textarea {
 }
 
 .actualForm {
-  margin-top: 120px;
+  margin-top: 150px;
   align-items: stretch;
   width: 50vw;
 }
