@@ -245,8 +245,8 @@
 
   .works {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
   }
@@ -440,22 +440,19 @@
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
-  justify-content: center;
+  justify-content: center; 
   padding: 24px;
   line-height: 44px;
   text-align: center;
-  width: 327px;
+  width: 320px;
   height: 216px;
 }
 
 .formSection {
-  height: 216px;
+  height: auto;
   width: 327px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  max-width: 900px;
-  align-content: stretch;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -464,7 +461,7 @@
   list-style: none;
 }
 
-.formInput {
+.inputform {
   padding: 10px 0 10px 0;
   border-bottom: 1px lightgray solid;
   font-family: Inter, sans-serif;
@@ -519,12 +516,11 @@ textarea {
 }
 
 .actualForm {
-  margin-top: 150px;
   align-items: stretch;
   width: 50vw;
 }
 
-.imputform {
+.inputform {
   border-bottom: 684px 1px solid lightgray;
 }
 
