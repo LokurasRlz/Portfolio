@@ -246,6 +246,7 @@
   .works {
     display: flex;
     flex-direction: column;
+
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
@@ -440,7 +441,7 @@
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
-  justify-content: center; 
+  justify-content: center;
   padding: 24px;
   line-height: 44px;
   text-align: center;
@@ -518,27 +519,6 @@ textarea {
 .actualForm {
   align-items: stretch;
   width: 50vw;
-}
-
-.inputform {
-  border-bottom: 684px 1px solid lightgray;
-}
-
-.formButton {
-  padding: 12px;
-  width: 131px;
-  height: 48px;
-  left: 98px;
-  background: #ff6b00;
-  color: #fff;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  border: none;
-  margin-bottom: 120px;
-  background-color: #f55800;
 }
 
 .iconsBot {
