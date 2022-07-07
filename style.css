@@ -1082,7 +1082,7 @@ textarea {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 250px;
+    column-gap: 10%;
   }
 
   /*.lists {
