@@ -178,27 +178,27 @@ ul {
   width: 100%;
 }
 
-.worktitle{
+.worktitle {
   width: 315px;
-height: 52px;
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #091E42;
-margin-right: 24px;
-
+  height: 52px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  margin-right: 24px;
 }
+
 .work-title {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  color:white;
+  color: white;
   text-align: left;
   height: 81px;
   margin-bottom: 3px;
@@ -380,10 +380,6 @@ h2.work-title {
   color: white;
 }
 
-/* .worksgrid {
-  padding: 120px 24px 0 24px;
-} */
-
 .worksgrid {
   justify-self: center;
   display: grid;
@@ -411,12 +407,6 @@ ul.worksgrid {
   padding: 0%;
   width: 100%;
 }
-
-/* .workspage {
-  flex-direction: column;
-  display: grid;
-  padding: 0 0 100px 0;
-} */
 
 .workspage {
   display: grid;
@@ -820,7 +810,7 @@ textarea {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-  } 
+  }
 
   .cards {
     display: flex;
@@ -843,7 +833,6 @@ textarea {
     background-size: contain;
     height: 100%;
     width: 100%;
-    max-width: 648px;
     vertical-align: middle;
     float: right;
     padding-right: 12px;
