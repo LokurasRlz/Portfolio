@@ -251,7 +251,7 @@ h2.work-title {
 .socials {
   display: flex;
   padding-left: 10px;
-} 
+}
 
 .boxes {
   font-family: Inter, sans-serif;
@@ -317,8 +317,6 @@ h2.work-title {
   background-color: beige;
 }
 
-
-
 .card {
   display: flex;
   flex-direction: column;
@@ -333,9 +331,9 @@ h2.work-title {
   color: white;
 }
 
-/*.worksgrid {
+/* .worksgrid {
   padding: 120px 24px 0 24px;
-}*/
+} */
 
 .worksgrid {
   justify-self: center;
@@ -365,11 +363,11 @@ ul.worksgrid {
   width: 100%;
 }
 
-/*.workspage {
+/* .workspage {
   flex-direction: column;
   display: grid;
   padding: 0 0 100px 0;
-}*/
+} */
 
 .workspage {
   display: grid;
@@ -403,38 +401,6 @@ ul.worksgrid {
   justify-content: center;
   margin: 0% 12px 0% 12px;
 }
-
-/*.card2 {
-  display: flex;
-  flex-direction: column;
-  width: 295px;
-  min-width: 295px;
-  flex-grow: 1;
-  margin-top: 86px;
-  align-self: center;
-}
-
-.card2 {
-  padding: 0;
-  width: 327px;
-  height: 338px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #f8f8f8;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url("./images/works.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}*/
 
 .card2 {
   display: flex;
@@ -582,7 +548,8 @@ ul.worksgrid {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
- /* text-align: center;*/
+
+  /* text-align: center; */
   justify-content: left;
   color: #172b4d;
   margin: 50px 24px 100px 24px;
@@ -791,17 +758,6 @@ textarea {
     width: 50%;
   }
 
- /* .worktitle {
-    font-family: Crete-Round, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-  } */
-
-  
-
   .cards {
     display: flex;
     flex-direction: row;
@@ -857,30 +813,21 @@ textarea {
     margin-bottom: 5%;
   }
 
-  /*.workspage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  .workspage {
+    max-width: 100%;
   }
-*/
 
-.workspage {
-  max-width: 100%;
-}
+  .workspage > * {
+    max-width: 100%;
+  }
 
-.workspage > * {
-  max-width: 100%;
-}
-
-.workspage2 {
-  width: 369px;
-  min-width: 369px;
-  height: 435px;
-  margin: 0%;
-  border: 1px solid transparent;
-}
+  .workspage2 {
+    width: 369px;
+    min-width: 369px;
+    height: 435px;
+    margin: 0%;
+    border: 1px solid transparent;
+  }
 
   .card2 {
     margin-top: 100px;
