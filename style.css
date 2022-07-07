@@ -178,19 +178,36 @@ ul {
   width: 100%;
 }
 
+.worktitle{
+  width: 315px;
+height: 52px;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #091E42;
+margin-right: 24px;
+
+}
 .work-title {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
-  color: white;
+  color:white;
   text-align: left;
   height: 81px;
+  margin-bottom: 3px;
 }
 
 h2.work-title {
   margin: auto 0%;
+  margin-top: 2%;
+  margin-right: 24px;
 }
 
 .gymfit {
@@ -220,6 +237,7 @@ h2.work-title {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
+  background-color: white;
 }
 
 .up {
@@ -317,7 +335,36 @@ h2.work-title {
   background-color: beige;
 }
 
+.buttonsee {
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-family: 'Inter', sans-serif;
+  width: 150px;
+  height: 50px;
+  margin: 12px 0%;
+  padding: 10px 12px;
+  background-color: #ff6b00;
+  color: white;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid transparent;
+}
 
+.buttonsee:hover {
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+  background-color: bisque;
+  box-shadow: 0 6px 16px rgb(213, 213, 213);
+}
+
+.buttonsee:active {
+  border: 1px solid transparent;
+  color: white;
+  background-color: #da5b00;
+}
 
 .card {
   display: flex;
@@ -681,6 +728,11 @@ textarea {
     background-size: 50%;
   }
 
+  .secondPage {
+    margin: 0 100px;
+    width: auto;
+  }
+
   .title {
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -784,33 +836,48 @@ textarea {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding-top: 100px;
   }
 
   .border {
-    width: 50%;
+    width: 60%;
   }
 
- /* .worktitle {
+  .worktitle {
     font-family: Crete-Round, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-  } */
-
-  
+  } 
 
   .cards {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     background: white;
+    margin-left: 8%;
   }
 
   .gymfit {
     max-width: 684px;
+    padding-left: 10px;
+    height: 448px;
+  }
+
+  .card {
+    align-content: center;
+    max-width: 648px;
+    flex-grow: 2;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    max-width: 648px;
+    vertical-align: middle;
+    float: right;
+    padding-right: 12px;
   }
 
   .up {
@@ -948,6 +1015,7 @@ textarea {
     flex-direction: row;
     justify-content: center;
     column-gap: 10%;
+    margin-bottom: 7%;
   }
 
   .itemsList {
@@ -968,6 +1036,7 @@ textarea {
     align-content: stretch;
     gap: 30px;
     border-bottom: 1px solid lightgray;
+    margin-top: 5%;
   }
 
   .actualForm {
