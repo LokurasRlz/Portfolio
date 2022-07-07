@@ -532,7 +532,7 @@ textarea {
   font-family: Inter, sans-serif;
 }
 
- .formButton {
+.formButton {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -811,7 +811,7 @@ textarea {
   }
 
   .lists {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     column-gap: 10%;
@@ -853,4 +853,3 @@ textarea {
     border-bottom: 684px 1px solid lightgray;
   }
 }
-
