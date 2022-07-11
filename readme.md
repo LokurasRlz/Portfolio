@@ -1,4 +1,4 @@
-# Portfolio: setup and mobile version skeleton
+[# Portfolio: setup and mobile version skeleton
 
 In this project, I set up a mobile version skeleton of my Portfolio. No complex coding was required for this exercise. Our goal here is to master all of the tools and best practices we learned about in previous steps..
 
@@ -36,11 +36,7 @@ Use images and backgrounds to enhance the look of the website.
 ## Get Started
 
 
-Download the repository
-
-Open the index.htm file
-
-Enjoy!
+Visit https://lokurasrlz.github.io/ 
 
 
 
@@ -79,3 +75,4 @@ Give a ⭐️ if you like this project!
 
 📝 License
 This project is MIT licensed.
+](https://lokurasrlz.github.io/)
