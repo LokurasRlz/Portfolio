@@ -36,12 +36,7 @@ Use images and backgrounds to enhance the look of the website.
 ## Get Started
 
 
-Download the repository
-
-Open the index.htm file
-
-Enjoy!
-
+Visit https://lokurasrlz.github.io/ 
 
 
 **For this project, we had to get familiar with FlexBox to make it. It was very challenging to me because I am a beginner but I am giving my best!** 
