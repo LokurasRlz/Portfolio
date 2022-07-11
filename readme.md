@@ -25,8 +25,6 @@ Visit https://lokurasrlz.github.io/
 
 For this project, we had to get familiar with FlexBox to make it. It was very challenging to me because I am a beginner but I am giving my best!
 
-I hope that it fulfill your espectations.
-👤 Matias Aguirre
 
 -GitHub: @lokurasrlz
 
@@ -42,4 +40,3 @@ Feel free to check the issues page.
 
 Show your support Give a ⭐️ if you like this project!
 
-📝 License This project is MIT licensed. ](https://lokurasrlz.github.io/)
