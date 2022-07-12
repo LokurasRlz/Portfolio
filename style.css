@@ -36,9 +36,9 @@ button {
 }
 
 button:hover {
-  background-color: #FA7500;
+  background-color: #fa7500;
   border: 1px solid #f55800;
-  color: #000000;
+  color: #000;
 }
 
 button:active {
@@ -202,7 +202,7 @@ ul {
   text-align: left;
   height: 81px;
   margin-bottom: 3px;
-  background-color: #4F4F4F;
+  background-color: #4f4f4f;
 }
 
 h2.work-title {
@@ -299,7 +299,7 @@ h2.work-title {
   list-style: none;
   color: white;
   fill: rgba(255, 255, 255, 0.24);
-  background-color: #4F4F4F;
+  background-color: #4f4f4f;
 }
 
 .buttons {
@@ -312,7 +312,7 @@ h2.work-title {
   height: 50px;
   margin: 12px 0%;
   padding: 10px 12px;
-  background-color: #FA7500;
+  background-color: #fa7500;
   color: black;
   line-height: 24px;
   justify-content: flex-start;
@@ -347,7 +347,7 @@ h2.work-title {
   height: 50px;
   margin: 12px 0%;
   padding: 10px 12px;
-  background-color: #FA7500;
+  background-color: #fa7500;
   color: black;
   line-height: 24px;
   align-items: center;
@@ -467,7 +467,7 @@ ul.worksgrid {
   text-align: left;
   margin: 12px auto;
   height: 87px;
-  background-color: #4F4F4F;
+  background-color: #4f4f4f;
 }
 
 .about {
@@ -528,7 +528,7 @@ ul.worksgrid {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  background: #FA7500;
+  background: #fa7500;
   border: 0;
   margin-left: 20px;
   margin-right: 20px;
@@ -653,7 +653,7 @@ textarea {
   height: 48px;
   left: 0;
   top: 259px;
-  background: #FA7500;
+  background: #fa7500;
   color: black;
   border: 0;
   margin-left: 12px;
