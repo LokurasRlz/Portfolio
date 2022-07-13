@@ -1003,4 +1003,71 @@ textarea {
   .inputform {
     border-bottom: 684px 1px solid lightgray;
   }
+
+  .workspage2:hover {
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-name: othercard;
+  }
+
+  .workspage2:hover .card2 {
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-name: newcard;
+  }
+
+  .buttons {
+    opacity: 0;
+    min-width: 369px;
+  }
+
+  .workspage2:hover .buttons {
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-name: nobtn;
+  }
+
+  @keyframes othercard {
+    from {
+      background-image: url("images/works.png");
+    }
+
+    to {
+      background-image: url("images/works2.png");
+      border: 1px solid black;
+    }
+  }
+
+  @keyframes newcard {
+    from {
+      opacity: 1;
+      transition: opacity 1s;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes nobtn {
+    from {
+      opacity: 0;
+      transition: opacity 1s;
+    }
+
+    to {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  .see-project-outer:hover {
+    display: block;
+    width: 100%;
+  }
 }
+
+
