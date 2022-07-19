@@ -27,6 +27,6 @@ function clickLinks() {
 hamburgerToggle.addEventListener('click', openMenuHam);
 menuItems.forEach(
   (doesntExist) => {
-    doesntExist.addEventListener('click', clickLinks)
+    doesntExist.addEventListener('click', clickLinks);
   },
-)
+);
