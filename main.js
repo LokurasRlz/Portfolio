@@ -23,11 +23,10 @@ function clickLinks() {
   closeIcon.style.display = 'none';
   icon.style.display = 'block';
 }
-hamburgerToggle.addEventListener('click',openMenuHam);
+
+hamburgerToggle.addEventListener('click', openMenuHam);
 menuItems.forEach(
-  (doesntExist)=> {
+  (doesntExist) => {
     doesntExist.addEventListener('click', clickLinks)
-  },
+  };
 )
-
-
