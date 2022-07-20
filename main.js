@@ -23,11 +23,13 @@ function clickLinks() {
   closeIcon.style.display = 'none';
   icon.style.display = 'block';
 }
+
 hamburgerToggle.addEventListener('click', openMenuHam);
 menuItems.forEach(
   (doesntExist) => {
     doesntExist.addEventListener('click', clickLinks);
   },
+
 );
 
 const projects = [
@@ -158,3 +160,4 @@ for (let i = 0; i < projects.length; i += 1) {
     });
   });
 }
+);
