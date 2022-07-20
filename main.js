@@ -37,81 +37,105 @@ const projects = [
     name: 'Website Protfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     image: './images/popup.png',
-    technology: ['HTML', 'CSS'],
+    technology: ['html', 'bootstrap', 'Ruby'],
     livelink: '#',
     sourcelink: '#',
     id: 'btn1',
-    class: 'firstCard',
+    class: 'card2',
   },
 
   {
     name: 'Profesional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     image: './images/popup.png',
-    technology: ['HTML', 'CSS', 'Javascript'],
+    technology: ['html', 'bootstrap', 'Ruby'],
     livelink: '#',
     sourcelink: '#',
     id: 'btn2',
-    class: 'secondCard',
+    class: 'card2',
   },
 
   {
     name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     image: './images/popup.png',
-    technology: ['HTML', 'CSS', 'Javascript'],
+    technology: ['html', 'bootstrap', 'Ruby'],
     livelink: '#',
     sourcelink: '#',
     id: 'btn3',
-    class: 'thirdCard',
+    class: 'card2',
   },
 
   {
     name: 'Website Protfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     image: './images/popup.png',
-    technology: ['HTML', 'CSS'],
+    technology: ['html', 'bootstrap', 'Ruby'],
     livelink: '#',
     sourcelink: '#',
     id: 'btn4',
-    class: 'fourthCard',
+    class: 'card2',
   },
 
   {
     name: 'Profesional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     image: './images/popup.png',
-    technology: ['HTML', 'CSS', 'Javascript'],
+    technology: ['html', 'bootstrap', 'Ruby'],
     livelink: '#',
     sourcelink: '#',
     id: 'btn5',
-    class: 'fifthCard',
+    class: 'card2',
   },
 
   {
     name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     image: './images/popup.png',
-    technology: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
+    technology: ['html', 'bootstrap', 'Ruby'],
     livelink: '#',
     sourcelink: '#',
     id: 'btn6',
-    class: 'sixthCard',
+    class: 'card2',
   },
 ];
 
+// Created body
 const body = document.querySelector('body');
+// Created "cards" div
+const cardDiv = document.createElement('ul');
+cardDiv.classList.add('worksgrid');
 
-const cardDiv = document.createElement('div');
-cardDiv.classList.add('cards');
+// Selected "About me" section
+const aboutMe = document.querySelector('.aboutMe');
+// Put "cards" div before "About me" section
+body.insertBefore(cardDiv, aboutMe);
 
 for (let i = 0; i < projects.length; i += 1) {
   const secondItem = document.createElement('div');
-  secondItem.classList.add('secondItem');
+  secondItem.classList.add('workspage2');
   secondItem.classList.add(projects[i].class);
   cardDiv.appendChild(secondItem);
-  const regButton = document.createElement('button');
-  regButton.type = 'button';
+
+  secondItem.innerHTML = `
+      <div class="descriptions">
+      <div class="hidden">
+      <h2 class="work-title">${projects[i].name}</h2>
+      <p class="work-description">${projects[i].description}</p>
+      <ul class="socials">
+          <li class="boxes2">${projects[i].technology[0]}</li>
+          <li class="boxes2">${projects[i].technology[1]}</li>
+          <li class="boxes2">${projects[i].technology[2]}</li>
+      </ul>
+      
+      </div>  
+  </div>
+`;
+  const buttons = document.createElement('button');
+  buttons.type = 'button';
+  buttons.classList.add("buttons");
+  buttons.textContent = 'See Project';
+  secondItem.appendChild(buttons);
 }
 
 document.querySelectorAll('.secondItem').forEach((item) => {

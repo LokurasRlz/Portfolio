@@ -364,12 +364,14 @@ ul {
   height: 81px;
   margin-bottom: 3px;
   background-color: #4f4f4f;
+  margin-left: 24px;
 }
 
 h2.work-title {
   margin: auto 0%;
   margin-top: 2%;
   margin-right: 24px;
+  margin-left: 16px;
 }
 
 .gymfit {
@@ -431,6 +433,7 @@ h2.work-title {
 .socials {
   display: flex;
   padding-left: 10px;
+  margin-left: 16px;
 }
 
 .boxes {
@@ -629,6 +632,7 @@ ul.worksgrid {
   margin: 12px auto;
   height: 87px;
   background-color: #4f4f4f;
+  margin-left: 16px;
 }
 
 .about {
@@ -855,6 +859,7 @@ textarea {
 
   .popup {
     padding: 2% 2%;
+    gap: 15px;
   }
 
   .popup.active {
@@ -970,6 +975,10 @@ textarea {
   #blurry.active {
     opacity: 1;
     pointer-events: all;
+  }
+
+  .hiddenButton {
+    display: block;
   }
 
   .header {
@@ -1178,6 +1187,7 @@ textarea {
     padding: 0;
     height: 40px;
     width: auto;
+    margin-left: 16px;
   }
 
   .work-section {
