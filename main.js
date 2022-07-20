@@ -133,7 +133,7 @@ for (let i = 0; i < projects.length; i += 1) {
 `;
   const buttons = document.createElement('button');
   buttons.type = 'button';
-  buttons.classList.add("buttons");
+  buttons.classList.add('buttons');
   buttons.textContent = 'See Project';
   secondItem.appendChild(buttons);
 }
