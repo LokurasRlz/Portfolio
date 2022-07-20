@@ -23,12 +23,12 @@ function clickLinks() {
   closeIcon.style.display = 'none';
   icon.style.display = 'block';
 }
-hamburgerToggle.addEventListener('click',openMenuHam);
+hamburgerToggle.addEventListener('click', openMenuHam);
 menuItems.forEach(
-  (doesntExist)=> {
-    doesntExist.addEventListener('click', clickLinks)
+  (doesntExist) => {
+    doesntExist.addEventListener('click', clickLinks);
   },
-)
+);
 
 const projects = [
   {
@@ -98,7 +98,6 @@ const projects = [
   },
 ];
 
-
 const body = document.querySelector('body');
 
 const cardDiv = document.createElement('div');
@@ -109,11 +108,8 @@ for (let i = 0; i < projects.length; i += 1) {
   secondItem.classList.add('secondItem');
   secondItem.classList.add(projects[i].class);
   cardDiv.appendChild(secondItem);
-
-  
   const regButton = document.createElement('button');
   regButton.type = 'button';
-  
 }
 
 document.querySelectorAll('.secondItem').forEach((item) => {
@@ -162,4 +158,3 @@ for (let i = 0; i < projects.length; i += 1) {
     });
   });
 }
-
