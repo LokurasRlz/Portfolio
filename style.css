@@ -46,6 +46,7 @@ body {
   background: #fff;
   gap: 15px;
   padding: 3% 5%;
+  width: 100%;
 }
 
 .popupDesktop {
@@ -860,6 +861,10 @@ textarea {
   .popup {
     padding: 2% 2%;
     gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .popup.active {
