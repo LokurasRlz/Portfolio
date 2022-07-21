@@ -100,15 +100,13 @@ const projects = [
   },
 ];
 
-// Created body
 const body = document.querySelector('body');
-// Created "cards" div
+
 const cardDiv = document.createElement('ul');
 cardDiv.classList.add('worksgrid');
 
-// Selected "About me" section
 const aboutMe = document.querySelector('.aboutMe');
-// Put "cards" div before "About me" section
+
 body.insertBefore(cardDiv, aboutMe);
 
 for (let i = 0; i < projects.length; i += 1) {
@@ -184,3 +182,21 @@ for (let i = 0; i < projects.length; i += 1) {
     });
   });
 }
+
+const form = document.querySelector('.actualForm');
+const email = document.getElementById('mail');
+const error = document.getElementById('error');
+
+function validateEmail(event) {
+  const message = [];
+  event.preventDefault();
+  if (email.value !== email.value.toLowerCase()) {
+    error.style.display = 'block';
+    message.push('Email must be in lowercase');
+    error.innerText = message.join(', ');
+  } else {
+    form.submit();
+  }
+}
+
+form.addEventListener('submit', validateEmail);
