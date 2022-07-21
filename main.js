@@ -200,3 +200,37 @@ function validateEmail(event) {
 }
 
 form.addEventListener('submit', validateEmail);
+
+const username = document.getElementById('username');
+const mail = document.getElementById('mail');
+const message = document.getElementById('message');
+const formButton = document.getElementById('formButton');
+
+function storeData() {
+  const nameValue = username.value;
+  const mailValue = mail.value;
+  const messageValue = message.value;
+
+  const user = {
+    nameValue,
+    mailValue,
+    messageValue,
+  };
+
+  if (nameValue && mailValue && messageValue) {
+    const stringedUser = JSON.stringify(user);
+    localStorage.setItem('user', stringedUser);
+  }
+}
+formButton.addEventListener('click', storeData);
+
+username.addEventListener('keyup', storeData);
+mail.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);
+
+if (localStorage.getItem('user')) {
+  const user = JSON.parse(localStorage.getItem('user'));
+  username.value = user.nameValue;
+  mail.value = user.mailValue;
+  message.value = user.messageValue;
+}
