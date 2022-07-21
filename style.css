@@ -14,6 +14,164 @@ body {
   display: none;
 }
 
+.flexPop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centeredDynamics {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 0, 0, 80%);
+  display: flex;
+  justify-content: center;
+}
+
+.popup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background: #fff;
+  gap: 15px;
+  padding: 3% 5%;
+  width: 100%;
+}
+
+.popupDesktop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  gap: 15px;
+  margin: 10% 5%;
+  transition: 200ms ease-out;
+  inset: 0 0 0 0;
+}
+
+.popup.active {
+  transform: scale(1);
+}
+
+.popupIntro {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popupName {
+  align-self: flex-start;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.popupClose {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+}
+
+.popupButtons {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 10px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  padding: 0;
+}
+
+.listItemPopup {
+  justify-self: flex-start;
+  border: 1px solid #3c3a39;
+  padding: 2%;
+}
+
+.popupImg {
+  max-height: 95%;
+  max-width: 95%;
+}
+
+.popupDescription {
+  width: 100%;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #344563;
+}
+
+.popupSources {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+}
+
+.popupLive,
+.popupSource {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #ff6b00;
+  color: white;
+  padding: 2%;
+  align-items: center;
+  width: 45%;
+  justify-content: space-around;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+#blurry {
+  position: fixed;
+  opacity: 1;
+  transition: 200ms ease-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+}
+
+#blurry.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 .firstpage {
   background-color: #1c1a19;
   background-image: url("./images/illustration-header-mobile.png");
@@ -207,12 +365,14 @@ ul {
   height: 81px;
   margin-bottom: 3px;
   background-color: #4f4f4f;
+  margin-left: 24px;
 }
 
 h2.work-title {
   margin: auto 0%;
   margin-top: 2%;
   margin-right: 24px;
+  margin-left: 16px;
 }
 
 .gymfit {
@@ -274,6 +434,7 @@ h2.work-title {
 .socials {
   display: flex;
   padding-left: 10px;
+  margin-left: 16px;
 }
 
 .boxes {
@@ -472,6 +633,7 @@ ul.worksgrid {
   margin: 12px auto;
   height: 87px;
   background-color: #4f4f4f;
+  margin-left: 16px;
 }
 
 .about {
@@ -594,8 +756,6 @@ ul.worksgrid {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-
-  /* text-align: center; */
   justify-content: left;
   color: #172b4d;
   margin: 50px 24px 100px 24px;
@@ -679,6 +839,151 @@ textarea {
 @media only screen and (min-width: 768px) {
   .closeIcon {
     display: none;
+  }
+
+  .flexPop {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 80% 20%;
+    margin-bottom: 2%;
+  }
+
+  .main {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0, 80%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .popup {
+    padding: 2% 2%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .popup.active {
+    transform: scale(1);
+  }
+
+  .popupIntro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .popupName {
+    align-self: flex-start;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .popupClose {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+  }
+
+  .popupButtons {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 10px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3c3a39;
+  }
+
+  .listItemPopup {
+    justify-self: flex-start;
+    border: 1px solid #3c3a39;
+    padding: 10px;
+  }
+
+  .popupImg {
+    width: 659px;
+    height: 448px;
+    grid-area: 1 / 1 / span 2 / span 1;
+    justify-content: center;
+  }
+
+  .popupDescription {
+    width: 95%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #344563;
+    align-self: start;
+  }
+
+  .popupSources {
+    display: flex;
+    width: 100%;
+    align-self: end;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 0;
+  }
+
+  .popupLive,
+  .popupSource {
+    width: auto;
+    display: flex;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #ff6b00;
+    color: white;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    gap: 15px;
+  }
+
+  #blurry {
+    position: fixed;
+    opacity: 1;
+    transition: 200ms ease-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    pointer-events: none;
+  }
+
+  #blurry.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .hiddenButton {
+    display: block;
   }
 
   .header {
@@ -831,6 +1136,21 @@ textarea {
     margin-left: 8%;
   }
 
+  .cardspop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-left: 10px;
+    padding-bottom: 100px;
+  }
+
+  .secondItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 600px;
+  }
+
   .gymfit {
     max-width: 684px;
     padding-left: 10px;
@@ -872,6 +1192,7 @@ textarea {
     padding: 0;
     height: 40px;
     width: auto;
+    margin-left: 16px;
   }
 
   .work-section {
