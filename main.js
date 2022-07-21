@@ -100,12 +100,10 @@ const projects = [
   },
 ];
 
-
 const body = document.querySelector('body');
 
 const cardDiv = document.createElement('ul');
 cardDiv.classList.add('worksgrid');
-
 
 const aboutMe = document.querySelector('.aboutMe');
 
