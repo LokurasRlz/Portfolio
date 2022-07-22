@@ -133,7 +133,7 @@ for (let i = 0; i < projects.length; i += 1) {
   buttons.type = 'button';
   buttons.classList.add('buttons');
   buttons.textContent = 'See Project';
-  secondItem.appendChild(buttons);
+  secondItem.appendChild(button);
 }
 
 document.querySelectorAll('.secondItem').forEach((item) => {
